@@ -1,6 +1,6 @@
 # mean_shopping_cart
 
-    # Bible_Cart Usage 
+   # Bible_Cart Usage 
               
               1)Populate the list of bibles & magazines from Database to view  
               2)Registeration if you choose both  mode default it will choose userMode
@@ -11,11 +11,11 @@
               7) view added products in cart  you can Purchase the orders  
               
               
-      # Based on user :
+   # Based on user :
                   Admin can able to Add/Edit/Delete products
                   User can't 
       
-      # Technologies :
+   # Technologies :
               1)Mongoose (mlab)  
               2)Express
               3)Angular 6 cli
