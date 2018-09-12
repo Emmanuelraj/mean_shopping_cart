@@ -24,6 +24,7 @@
               6)jwt(client&server)
               7)AuthGuard for profile
               8)localstorage
+              9)bcryptjs
               
         
               
