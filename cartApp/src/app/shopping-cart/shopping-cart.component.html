@@ -1,0 +1,70 @@
+<p>
+  shopping-cart works!
+</p>
+
+     <h1 class="lead">Welcome to cart added products</h1>
+
+<div class="container">
+  <marquee  direction="right" speed="normal" behavior="loop" class="lead">Welcome to cart {{username}} </marquee>
+</div>
+
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toString();
+</script>
+
+
+
+<h1 class="lead">TotalQty:{{cartProduct.length}}</h1>
+  <!-- All div Everything should be in container-->
+  <div class="container">
+    <div class="row" >
+        <div class="col-sm-12 col-md-2" *ngFor="let product of cartProduct">
+
+          <div class="thumbnail">
+            <img src="{{product.imagepath}}" alt="Bible" class="img-responsive">
+            <div class="caption">
+              <h3>{{product.title}}</h3>
+              <p class="description">{{product.description}}</p>
+              <div class="clearfix">
+                <div class="price pull-left">${{product.price}}</div>
+              </div>
+          </div>
+          </div>
+               <button type="button" class="btn btn-primary" (click)="purchaseOrderWithName(product)" (click)="submit(product._id)"  name="button">Purchase order</button>
+        </div>
+       <div class="col-sm-12">
+         <button class="button"  (click)="viewOrders()"><span>View Orders</span></button>
+       </div>
+  </div>
+
+
+  <div class="row"   *ngIf="viewPurchaseOrders">
+
+    <h4>View PurchaseOrder</h4>
+
+    {{orderProduct.length}}
+
+      <div class="col-sm-9" *ngFor="let product of orderProduct">
+
+               <div class="thumbnail">
+                 <img src="{{product.imagepath}}" alt="Bible" class="img-responsive">
+                 <div class="caption">
+                   <h3>{{product.title}}</h3>
+                   <p class="description">{{product.description}}</p>
+                   <div class="clearfix">
+                     <div class="price pull-left">${{product.price}}</div>
+
+                   <p><button type="button" class="btn btn-primary btn-sm pull-left" role="button"  (click)="addToCart(product)">Cancel to Shoppingcart</button> </p>
+                     </div>
+               </div>
+             </div>
+      </div>
+</div>
+
+
+
+  </div>
