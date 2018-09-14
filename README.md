@@ -24,7 +24,8 @@
               6)jwt(client&server)
               7)AuthGuard for profile
               8)localstorage
-              9)bcryptjs
+              9)bcryptjs-->(hash password)
+              10)Bootstrap 3& fontawesome & glyhicon&css
               
         
               
