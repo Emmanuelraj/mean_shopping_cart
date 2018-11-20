@@ -1,19 +1,25 @@
 # mean_shopping_cart
+           This Mean_Shopping_Cart basically to understand how shoppingcart works it populate the datas from database   like(images,description and price) registeration and login using bcrytjs and after login based on user you can will get an option 
+           
+                 
+   # Based on user :
+                  
+                  View mode is comman for both user
+                  Admin can able to Add/Edit/Delete products
+                  User can't   Add/Edit      
+         
 
-   # Bible_Cart Usage 
+   # Bible_Cart Usage :
               
               1)Populate the list of bibles & magazines from Database to view  
               2)Registeration if you choose both  mode default it will choose userMode
               3)Login
               4)view the products and add into shoppingcart
               5)add into cart 
-              6)view added products in cart 
+              6)view added products in cart (localStorage storing the datas) 
               7) view added products in cart  you can Purchase the orders  
               
-              
-   # Based on user :
-                  Admin can able to Add/Edit/Delete products
-                  User can't 
+
       
    # Technologies :
               1)Mongoose (mlab)  
