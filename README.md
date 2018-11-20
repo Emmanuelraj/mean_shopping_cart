@@ -1,4 +1,4 @@
-# Mean_Shopping_Cart
+# Mean_Shopping_Cart :
            This Mean_Shopping_Cart basically to understand 
            how shoppingcart works it populate the datas from database   
            like(images,description and price) 
