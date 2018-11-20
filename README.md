@@ -1,5 +1,8 @@
 # mean_shopping_cart
-           This Mean_Shopping_Cart basically to understand how shoppingcart works it populate the datas from database   like(images,description and price) registeration and login using bcrytjs and after login based on user you can will get an option 
+           This Mean_Shopping_Cart basically to understand 
+           how shoppingcart works it populate the datas from database   
+           like(images,description and price) 
+           registeration and login using bcrytjs and after login based on user you can will get an option 
            
                  
    # Based on user :
